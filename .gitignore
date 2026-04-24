@@ -1,0 +1,27 @@
+# Environment variables (contains API keys - never push this!)
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# uv lock (optional - you can remove this line if you want to commit it)
+# uv.lock
+
+# Chroma vector store (auto-generated, no need to push)
+chroma_db/
+
+# Ragas results (generated output)
+ragas_results.csv
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
